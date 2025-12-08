@@ -1,0 +1,7 @@
+{
+  "name": "fussbodenleger-stellenangebote.de",
+  "description": "Die führende Plattform für Fußbodenleger-Jobs und Fachkräfte in Deutschland. Verbindet Handwerk mit moderner KI-Technologie.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
