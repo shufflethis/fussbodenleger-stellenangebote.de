@@ -265,10 +265,10 @@ const App = () => {
           {/* Impressum Placeholder (Content requirement) */}
           <div className="mt-8 p-4 bg-gray-50 rounded border border-gray-100 text-xs text-gray-400">
             <strong>Impressum (Platzhalter):</strong><br/>
-            Musterfirma GmbH, Musterstraße 1, 12345 Musterstadt<br/>
-            Geschäftsführer: Max Mustermann<br/>
-            Handelsregister: HRB 12345, Amtsgericht Musterstadt<br/>
-            Kontakt: info@fussbodenleger-stellenangebote.de
+            Social Media Venture GmbH, Musterstraße 1, 10437 Berlin<br/>
+            Geschäftsführer: Thomas Sander<br/>
+            Handelsregister: HRB 162557 B, Amtsgericht Musterstadt<br/>
+            Kontakt: info@socialmediaventure.com
           </div>
         </div>
       </footer>
