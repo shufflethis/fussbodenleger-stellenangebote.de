@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# fussbodenleger-stellenangebote.de - Fussbodenleger Stellenangebote
+
+> fussbodenleger-stellenangebote.de ist ein spezialisiertes Jobportal fuer Fussbodenleger-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Fussbodenleger
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://fussbodenleger-stellenangebote.de
+- Arbeitgeber-Kontakt: https://fussbodenleger-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://fussbodenleger-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Fussbodenleger-Stellenangebote
+- Karriere-Ratgeber fuer Fussbodenleger
+- Gehaltsvergleiche und Brancheninformationen
