@@ -265,9 +265,9 @@ const App = () => {
           {/* Impressum Placeholder (Content requirement) */}
           <div className="mt-8 p-4 bg-gray-50 rounded border border-gray-100 text-xs text-gray-400">
             <strong>Impressum (Platzhalter):</strong><br/>
-            Social Media Venture GmbH, Musterstraße 1, 10437 Berlin<br/>
+            Social Media Venture GmbH, Schliemannstraße 23, 10437 Berlin<br/>
             Geschäftsführer: Thomas Sander<br/>
-            Handelsregister: HRB 162557 B, Amtsgericht Musterstadt<br/>
+            Handelsregister: HRB 162557 B, Amtsgericht Berlin-Charlottenburg<br/>
             Kontakt: info@socialmediaventure.com
           </div>
         </div>
