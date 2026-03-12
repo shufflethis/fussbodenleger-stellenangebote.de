@@ -1,19 +1,36 @@
-# HR-UPDATER: v1.0
-# fussbodenleger-stellenangebote.de - Fussbodenleger Stellenangebote
+# fussbodenleger-stellenangebote.de
 
-> fussbodenleger-stellenangebote.de ist ein spezialisiertes Jobportal fuer Fussbodenleger-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> fussbodenleger-stellenangebote.de ist ein spezialisiertes Jobportal fuer Fussbodenleger-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH, Berlin.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Fussbodenleger
+- Spezialisiertes Jobportal fuer Fussbodenleger, Bodenleger und Parkettleger
 - Kostenlose Stellensuche fuer Bewerber
-- Gezielte Reichweite fuer Arbeitgeber
+- Gezielte Reichweite fuer Arbeitgeber im Handwerk
+- Betreiber: Social Media Venture GmbH, Schliemannstrasse 23, 10437 Berlin
+- Geschaeftsfuehrer: Thomas Sander
+- Gruendung durch Thomas Sander, HR-Tech-Experte und Gruender spezialisierter Jobportale
+
+## Zielgruppen
+- Fussbodenleger, Bodenleger, Parkettleger, Estrichleger auf Jobsuche
+- Handwerksbetriebe, Bauunternehmen und Personaldienstleister mit offenen Stellen
+- Quereinsteiger mit Interesse am Bodenleger-Handwerk
+
+## Inhalte
+- Aktuelle Fussbodenleger-Stellenangebote aus ganz Deutschland
+- Karriere-Ratgeber fuer Fussbodenleger (Bewerbungstipps, Gehaltsvergleiche)
+- FAQ zu Ausbildung, Gehalt, Weiterbildung und Selbststaendigkeit
+- Brancheninformationen und Trends im Bodenbelag-Handwerk
+- Regionale Jobsuche in ueber 60 deutschen Staedten
 
 ## Kontakt
 - Website: https://fussbodenleger-stellenangebote.de
-- Arbeitgeber-Kontakt: https://fussbodenleger-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://fussbodenleger-stellenangebote.de/kontakt-bewerber
+- E-Mail: info@socialmediaventure.com
+- Autor: https://fussbodenleger-stellenangebote.de/#/autor/thomas-sander
+- LinkedIn: https://de.linkedin.com/in/thomas-sander-520676303
 
-## Inhalte
-- Aktuelle Fussbodenleger-Stellenangebote
-- Karriere-Ratgeber fuer Fussbodenleger
-- Gehaltsvergleiche und Brancheninformationen
+## Seiten
+- Startseite mit Stellenangeboten: https://fussbodenleger-stellenangebote.de/
+- Kontakt: https://fussbodenleger-stellenangebote.de/#/kontakt
+- Impressum: https://fussbodenleger-stellenangebote.de/#/impressum
+- Datenschutz: https://fussbodenleger-stellenangebote.de/#/datenschutz
+- Autor Thomas Sander: https://fussbodenleger-stellenangebote.de/#/autor/thomas-sander

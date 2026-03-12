@@ -19,3 +19,12 @@ Allow: /
 
 User-agent: ClaudeBot
 Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# LLMs.txt
+# https://fussbodenleger-stellenangebote.de/llms.txt

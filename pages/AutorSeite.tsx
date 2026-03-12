@@ -15,10 +15,17 @@ const AutorSeite: React.FC = () => {
           '@type': 'Organization',
           name: 'Social Media Venture GmbH',
           url: 'https://fussbodenleger-stellenangebote.de',
+          address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Schliemannstraße 23',
+            addressLocality: 'Berlin',
+            postalCode: '10437',
+            addressCountry: 'DE',
+          },
         },
         description: 'HR-Tech-Experte und Gründer spezialisierter Jobportale für Fachkräfte in Deutschland.',
         knowsAbout: ['HR-Tech', 'Recruiting', 'Jobportale', 'Fussbodenleger', 'Personalwesen'],
-        sameAs: ['https://www.linkedin.com/in/thomas-sander-smv/'],
+        sameAs: ['https://de.linkedin.com/in/thomas-sander-520676303'],
       }) }} />
 
       <div className="bg-slate-50 py-16 md:py-24">
@@ -100,7 +107,7 @@ const AutorSeite: React.FC = () => {
                     </div>
                     <div>
                       <p className="text-xs text-slate-500 font-medium">LinkedIn</p>
-                      <a href="https://www.linkedin.com/in/thomas-sander-smv/" target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:text-sky-700 font-medium text-sm">LinkedIn-Profil</a>
+                      <a href="https://de.linkedin.com/in/thomas-sander-520676303" target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:text-sky-700 font-medium text-sm">LinkedIn-Profil</a>
                     </div>
                   </div>
                 </div>

@@ -78,55 +78,83 @@ const App = () => {
         )}
       </nav>
 
+      {/* Mobile: Job Listings First (shown only on mobile, above hero) */}
+      <section className="md:hidden max-w-7xl mx-auto px-4 py-6">
+        <h3 className="text-2xl font-heading font-bold text-craft-900 mb-4">Aktuelle Fussbodenleger-Stellen</h3>
+        <div className="grid gap-3">
+          {JOB_LISTINGS.slice(0, 5).map((job) => (
+            <div key={`mobile-${job.id}`} className="bg-white border border-gray-100 rounded-lg p-4 shadow-sm">
+              <div className="flex items-start gap-3">
+                <div className="w-10 h-10 bg-wood-50 text-wood-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Briefcase size={18} />
+                </div>
+                <div className="flex-grow min-w-0">
+                  <h4 className="text-base font-bold text-craft-900 truncate">{job.title}</h4>
+                  <p className="text-sm text-gray-500">{job.company}</p>
+                  <div className="flex flex-wrap gap-2 mt-1 text-xs text-gray-500">
+                    <span className="flex items-center gap-1"><MapPin size={12} /> {job.location}</span>
+                    <span className="bg-gray-100 px-2 py-0.5 rounded text-gray-600">{job.type}</span>
+                  </div>
+                </div>
+              </div>
+              <button className="mt-3 w-full bg-wood-500 text-white py-2 rounded-lg font-semibold text-sm hover:bg-wood-700 transition">
+                Jetzt bewerben
+              </button>
+            </div>
+          ))}
+        </div>
+        <a href="#alle-jobs" className="block mt-4 text-center text-wood-600 font-semibold text-sm">Alle {JOB_LISTINGS.length} Stellen anzeigen</a>
+      </section>
+
       {/* Hero Section */}
       <header className="relative bg-craft-900 text-white overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src="https://picsum.photos/1920/1080?grayscale&blur=2" 
-            alt="Fußbodenleger bei der Arbeit" 
+          <img
+            src="https://picsum.photos/1920/1080?grayscale&blur=2"
+            alt="Fußbodenleger bei der Arbeit"
             className="w-full h-full object-cover opacity-20"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-craft-900 via-craft-900/90 to-transparent"></div>
         </div>
-        
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-32">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-wood-500/20 text-wood-100 px-3 py-1 rounded-full text-sm font-semibold mb-6 border border-wood-500/30">
+            <div className="inline-flex items-center gap-2 bg-wood-500/20 text-wood-100 px-3 py-1 rounded-full text-sm font-semibold mb-4 md:mb-6 border border-wood-500/30">
               <Award size={16} /> Nr. 1 Jobbörse für Bodenleger
             </div>
-            <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6 leading-tight">
+            <h2 className="text-3xl md:text-6xl font-heading font-bold mb-4 md:mb-6 leading-tight">
               Deutschlands Netzwerk für <span className="text-wood-500">Fußbodenprofis</span>.
             </h2>
-            <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl">
-              Wir verbinden qualifizierte Handwerker mit Top-Arbeitgebern. 
-              Egal ob Parkett, Estrich, Vinyl oder Fliesen – finden Sie jetzt Ihren nächsten Auftrag oder Traumjob.
+            <p className="text-base md:text-xl text-gray-300 mb-6 md:mb-10 leading-relaxed max-w-2xl">
+              Wir verbinden qualifizierte Handwerker mit Top-Arbeitgebern.
+              Egal ob Parkett, Estrich, Vinyl oder Fliesen -- finden Sie jetzt Ihren nächsten Auftrag oder Traumjob.
             </p>
-            
+
             {/* Search Box */}
             <div className="bg-white p-2 rounded-lg shadow-xl flex flex-col md:flex-row gap-2 max-w-2xl">
-              <div className="flex-1 flex items-center px-4 bg-gray-50 rounded md:bg-transparent">
-                <Search className="text-gray-400 w-5 h-5 mr-3" />
-                <input 
-                  type="text" 
-                  placeholder="Jobtitel, z.B. Parkettleger..." 
-                  className="w-full py-3 bg-transparent outline-none text-gray-800 placeholder-gray-500"
+              <div className="flex-1 flex items-center px-3 md:px-4 bg-gray-50 rounded md:bg-transparent">
+                <Search className="text-gray-400 w-5 h-5 mr-2 md:mr-3 flex-shrink-0" />
+                <input
+                  type="text"
+                  placeholder="Jobtitel, z.B. Parkettleger..."
+                  className="w-full py-3 bg-transparent outline-none text-gray-800 placeholder-gray-500 text-sm md:text-base"
                 />
               </div>
               <div className="h-px md:h-auto md:w-px bg-gray-200 mx-2"></div>
-              <div className="flex-1 flex items-center px-4 bg-gray-50 rounded md:bg-transparent">
-                <MapPin className="text-gray-400 w-5 h-5 mr-3" />
-                <input 
-                  type="text" 
-                  placeholder="Ort oder PLZ" 
-                  className="w-full py-3 bg-transparent outline-none text-gray-800 placeholder-gray-500"
+              <div className="flex-1 flex items-center px-3 md:px-4 bg-gray-50 rounded md:bg-transparent">
+                <MapPin className="text-gray-400 w-5 h-5 mr-2 md:mr-3 flex-shrink-0" />
+                <input
+                  type="text"
+                  placeholder="Ort oder PLZ"
+                  className="w-full py-3 bg-transparent outline-none text-gray-800 placeholder-gray-500 text-sm md:text-base"
                 />
               </div>
-              <button className="bg-wood-500 hover:bg-wood-700 text-white font-bold py-3 px-8 rounded-md transition duration-200">
+              <button className="bg-wood-500 hover:bg-wood-700 text-white font-bold py-3 px-6 md:px-8 rounded-md transition duration-200 text-sm md:text-base">
                 Suchen
               </button>
             </div>
-            
-            <div className="mt-8 flex gap-6 text-sm text-gray-400">
+
+            <div className="mt-4 md:mt-8 flex flex-wrap gap-3 md:gap-6 text-xs md:text-sm text-gray-400">
               <span className="flex items-center gap-1"><CheckCircle2 size={14} className="text-wood-500" /> Über 500 neue Jobs</span>
               <span className="flex items-center gap-1"><CheckCircle2 size={14} className="text-wood-500" /> Geprüfte Arbeitgeber</span>
               <span className="flex items-center gap-1"><CheckCircle2 size={14} className="text-wood-500" /> Kostenlos für Bewerber</span>
@@ -137,9 +165,9 @@ const App = () => {
 
       {/* Main Content Area */}
       <main className="flex-grow">
-        
+
         {/* Job Listings Section */}
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <section id="alle-jobs" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16">
           <div className="flex justify-between items-end mb-8">
             <div>
               <h3 className="text-3xl font-heading font-bold text-craft-900">Aktuelle Top-Stellen</h3>
@@ -256,9 +284,9 @@ const App = () => {
           </div>
           
           <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400">
-            <p>&copy; 2024 fussbodenleger-stellenangebote.de - Ein fiktives Projekt.</p>
+            <p>&copy; 2025 fussbodenleger-stellenangebote.de -- Social Media Venture GmbH</p>
             <div className="flex gap-4">
-              <span>Made with React & Gemini</span>
+              <span>Schliemannstraße 23, 10437 Berlin</span>
             </div>
           </div>
           
